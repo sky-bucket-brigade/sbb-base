@@ -11,7 +11,6 @@ RUN apt update && apt install -y \
     git \
     build-essential \
     clang-format-18 \
-    ros-jazzy-pinocchio \
     ros-jazzy-ament-cmake-gtest \
     ccache \
     qt6-base-dev \
