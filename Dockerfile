@@ -3,7 +3,6 @@ FROM osrf/ros:jazzy-desktop
 SHELL ["/bin/bash", "-c"]
 
 RUN apt update && apt install -y \
-    swig \
     python3-dev \ 
     python3-numpy \
     python3-vcstool \
