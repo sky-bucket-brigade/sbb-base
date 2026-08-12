@@ -20,6 +20,5 @@ RUN apt update && apt install -y \
 
 WORKDIR /base_ws
 COPY . src/
-WORKDIR /base_ws
 
 RUN source /opt/ros/jazzy/setup.bash && colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
