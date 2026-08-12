@@ -18,8 +18,8 @@ RUN apt update && apt install -y \
     qt6-base-dev \
     ros-jazzy-plotjuggler-ros
 
-WORKDIR /base_ws/src
-COPY . .
+WORKDIR /base_ws
+COPY . src/
 WORKDIR /base_ws
 
 RUN source /opt/ros/jazzy/setup.bash && colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
