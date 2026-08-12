@@ -1,0 +1,12 @@
+[submodule "TAM__param_management"]
+	path = TAM__param_management
+	url = git@github.com:sky-bucket-brigade/TAM__param_management.git
+[submodule "tsl"]
+	path = tsl
+	url = git@github.com:sky-bucket-brigade/tsl.git
+[submodule "sbb_msgs_srvs"]
+	path = sbb_msgs_srvs
+	url = git@github.com:sky-bucket-brigade/sbb_msgs_srvs.git
+[submodule "mujoco"]
+	path = mujoco
+	url = git@github.com:sky-bucket-brigade/mujoco.git
