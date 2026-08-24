@@ -14,7 +14,8 @@ RUN apt update && apt install -y \
     ros-jazzy-ament-cmake-gtest \
     ccache \
     qt6-base-dev \
-    ros-jazzy-plotjuggler-ros
+    ros-jazzy-plotjuggler-ros \
+    ros-jazzy-image-transport-plugins
 
 WORKDIR /workspaces/base_ws
 COPY . src/
