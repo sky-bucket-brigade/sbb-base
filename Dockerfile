@@ -15,7 +15,7 @@ RUN apt update && apt install -y \
     ccache \
     qt6-base-dev \
     ros-jazzy-plotjuggler-ros \
-    ros-jazzy-image-transport-plugins \
+    ros-jazzy-image-transport-plugins
 
 RUN rosdep update
 RUN rosdep install --from-paths src --ignore-src -r -y
