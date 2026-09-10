@@ -10,3 +10,6 @@
 [submodule "mujoco"]
 	path = mujoco
 	url = git@github.com:sky-bucket-brigade/mujoco.git
+[submodule "rslcpp"]
+	path = rslcpp
+	url = git@github.com:sky-bucket-brigade/rslcpp.git
