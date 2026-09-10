@@ -16,7 +16,8 @@ RUN apt update && apt install -y \
     qt6-base-dev \
     ros-jazzy-plotjuggler-ros \
     ros-jazzy-image-transport-plugins \
-    ros-jazzy-test-msgs
+    ros-jazzy-test-msgs \
+    ros-jazzy-ament-cmake-google-benchmark
 
 WORKDIR /workspaces/base_ws
 COPY . src/
