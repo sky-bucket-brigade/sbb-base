@@ -17,7 +17,8 @@ RUN apt update && apt install -y \
     ros-jazzy-plotjuggler-ros \
     ros-jazzy-image-transport-plugins \
     ros-jazzy-test-msgs \
-    ros-jazzy-ament-cmake-google-benchmark
+    ros-jazzy-ament-cmake-google-benchmark \
+    ros-jazzy-performance-test-fixture
 
 WORKDIR /workspaces/base_ws
 COPY . src/
