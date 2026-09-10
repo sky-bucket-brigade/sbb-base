@@ -17,10 +17,10 @@ RUN apt update && apt install -y \
     ros-jazzy-plotjuggler-ros \
     ros-jazzy-image-transport-plugins
 
-RUN rosdep update
-RUN rosdep install --from-paths src --ignore-src -r -y
-
 WORKDIR /workspaces/base_ws
 COPY . src/
+
+RUN rosdep update
+RUN rosdep install --from-paths src --ignore-src -r -y
 
 RUN source /opt/ros/jazzy/setup.bash && colcon build --cmake-args -DCMAKE_BUILD_TYPE=Release
